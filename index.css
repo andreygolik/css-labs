@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap');
+@import "/reset.css";
+
+html {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
+}
+
+body {
+  background-color: #202020;
+  color: lightgrey;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  min-height: 100vh;
+}
+
+button {
+  padding: .5rem 1rem;
+  background-color: lightgrey;
+  border: none;
+  border-radius: .5rem;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+  line-height: 1rem;
+}
+
+button:hover {
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+  transition: all .5s ease 0s;
+}
+
+header {
+  background-color: black;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+main {
+  margin: 1rem;
+  color: lightgrey;
+  color: lightgrey;
+}
+
+main ul {
+  list-style: square inside;
+}
+
+main ul li {
+  text-transform: lowercase;
+}

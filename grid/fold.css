@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400&display=swap');
+@import "/reset.css";
+
+html {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
+}
+
+body {
+  background-color: #202020;
+  color: lightgrey;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+  transition: all .5s ease 0s;
+}
+
+header {
+  margin: 0 1rem;
+  display: grid;
+  grid-template-rows: minmax(1rem, 3fr) minmax(100px, 300px) max-content auto 1fr;
+  justify-items: center;
+  height: 100vh;
+}
+
+.C img {
+  grid-row: 2;
+  height: 100%;
+  max-width: 300px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.4rem;
+  letter-spacing: .25rem;
+  line-height: 1em;
+  margin: 1em 0;
+  word-wrap: break-word;
+}
+
+.C h1 {
+  grid-row: 3;
+}
+
+.C nav {
+  grid-row: 4;
+}
+
+.C ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.C li {
+  border-right: 1px solid white;
+  padding: 0 1.25em;
+  line-height: .75em;
+  height: .75em;
+  margin: .25em 0;
+  letter-spacing: .1em;
+  float: none;
+}
+
+.C li:last-of-type {
+  border: none;
+}
