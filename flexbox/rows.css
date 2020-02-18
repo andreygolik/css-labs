@@ -1,0 +1,28 @@
+html, body {
+  height: 100vh;
+  background-color: purple;
+}
+
+body {
+  margin: 0;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  /* width: 300px; */
+}
+
+.section {
+  border: yellow solid 2px;
+}
+
+#section-1 {
+  height: 500px;
+}
+
+#section-2 {
+  flex-grow: 1;
+  min-height: 300px;
+}
