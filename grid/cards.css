@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap');
-@import "/reset.css";
+@import "../reset.css";
 
 html {
   font-family: 'Courier Prime', monospace;
