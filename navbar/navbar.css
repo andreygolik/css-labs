@@ -5,7 +5,7 @@
   font-size: 16px;
   font-family: 'Courier Prime', monospace;
   --text-primary: #F0F0F0;
-  --text-secondary: #ff7eee;
+  --text-secondary: aquamarine;
   --bg-primary: #1f1f1f;
   --bg-secondary: #000000;
   --transition-speed: 500ms;
@@ -86,7 +86,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0 1.5rem;
 }
 
-.fa-primary {
+/* .fa-primary {
   color: #ff7eee;
 }
 
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb {
 .fa-primary,
 .fa-secondary {
   transition: var(--transition-speed);
-}
+} */
 
 .logo {
   font-weight: bold;
